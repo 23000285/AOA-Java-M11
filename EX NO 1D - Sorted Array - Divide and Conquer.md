@@ -91,8 +91,6 @@ public class Solution {
 
 <img width="1223" height="381" alt="image" src="https://github.com/user-attachments/assets/deef150d-40fc-4ad2-bb9c-2b5c167128ab" />
 
-```
-
 ---
 
 ## **Result:**
