@@ -56,5 +56,3 @@ public class Main{
 The program successfully prints all the numbers from 1 to N.
 
 ---
-
-If you want, I can also prepare **manual drawing output**, **tabular dry run**, or **viva questions** for this experiment.
