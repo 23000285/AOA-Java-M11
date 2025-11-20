@@ -64,16 +64,8 @@ public class CountPairsWithDifference {
 
 ## **Output:**
 
-Example:
+<img width="1020" height="326" alt="image" src="https://github.com/user-attachments/assets/df467aa7-c18b-4c75-9cbd-7897dc9ef9a2" />
 
-```
-Input:
-5
-1 2 2 1 3
-1
-
-Output:
-4
 ```
 
 ---
