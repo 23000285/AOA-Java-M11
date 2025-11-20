@@ -1,34 +1,85 @@
+# **EX 1C Valid Pairs using Brute Force Approach**
 
-# EX 1C Valid Pairs using Brute Force Approach
-## DATE:
-## AIM:
-To write a Java program to for given constraints.
-Given an integer array nums and an integer k, return the number of pairs (i, j) where i < j such that |nums[i] - nums[j]| == k.
+## **DATE: 21-08-2025**
 
-The value of |x| is defined as:
+## **AIM:**
 
-x if x >= 0.
--x if x < 0.
+To write a Java program that counts the number of valid pairs (i, j) such that **i < j** and
+**|nums[i] – nums[j]| = k**, using the brute force method.
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+---
 
-## Program:
+## **Algorithm**
+
+1. Start the program.
+2. Read the value of **n** and then read **n** elements into the array.
+3. Read the value of integer **k**.
+4. Use two nested loops to compare every pair (i, j) where **i < j**.
+5. Count the pair if the absolute difference equals **k**, then print the result.
+
+---
+
+## **Program:**
+
 ```
 /*
-Program to implement Reverse a String
-Developed by: 
-Register Number:  
+Program to count valid pairs using Brute Force Approach
+Developed by: VENKATANATHAN P R 
+Register Number: 212223240173
 */
+import java.util.Scanner;
+
+public class CountPairsWithDifference {
+    public static int countKDifference(int[] nums, int k) {
+        int n = nums.length;
+        int count = 0;
+        for(int i = 0; i < n; i++){
+            for(int j = i + 1; j < n; j++){
+                if(Math.abs(nums[i] - nums[j]) == k)
+                    count++;
+            }
+        }
+        return count;
+    }
+                
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        
+        for(int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
+        }
+        
+        int k = sc.nextInt();
+        int result = countKDifference(nums, k);
+        System.out.println(result);
+        
+        sc.close();
+    }
+}
 ```
 
-## Output:
+---
 
+## **Output:**
 
+Example:
 
-## Result:
-The program successfully implemented and the expected output is verified.
+```
+Input:
+5
+1 2 2 1 3
+1
+
+Output:
+4
+```
+
+---
+
+## **Result:**
+
+The program was successfully implemented and the expected output was verified.
+
+---
