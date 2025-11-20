@@ -89,17 +89,8 @@ public class Solution {
 
 ## **Output:**
 
-Example:
+<img width="1223" height="381" alt="image" src="https://github.com/user-attachments/assets/deef150d-40fc-4ad2-bb9c-2b5c167128ab" />
 
-```
-Input:
-3
-1 3 5
-4
-2 4 6 8
-
-Output:
-Median of the two sorted arrays = 4.0
 ```
 
 ---
