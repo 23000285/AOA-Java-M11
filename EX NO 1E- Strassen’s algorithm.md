@@ -1,6 +1,6 @@
 # **EX 1E Integer Multiplication using Divide and Conquer Approach (Strassen’s Algorithm)**
 
-## **DATE: 30-09-2025**
+## **DATE: 30-08-2025**
 
 ## **AIM:**
 
@@ -28,7 +28,7 @@ The Karatsuba method reduces multiplication complexity from **O(n³)** to approx
 
 ## **Program:**
 
-```
+```java
 /*
 Program to implement Integer Multiplication using Divide and Conquer (Karatsuba)
 Developed by: VENKATANATHAN P R  
