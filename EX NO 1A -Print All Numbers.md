@@ -20,7 +20,7 @@ To write a Java program that takes an integer input N from the user and prints a
 
 ## **Program:**
 
-```
+```java
 /*
 Program to implement Print All Numbers from 1 to N
 Developed by: VENNKATANATHAN P R
